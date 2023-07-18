@@ -17,12 +17,7 @@ export default class HomeTemplete extends Component {
     return (
       <div className="row">
         <nav className="nav col-2 flex-column justify-content-center ">
-          <NavLink className={({isActive})=>isActive?'nav-link border border-2 border-info-subtle':'nav-link border border-2 border-white'} aria-current="page" to="home" >
-            Home
-          </NavLink>
-          <NavLink className={({isActive})=>isActive?'nav-link border border-2 border-info-subtle':'nav-link border border-2 border-white'} to="shop">
-            Shop
-          </NavLink>
+          
         </nav>
         <div className="tab-content col-10" id="myTabContent">
           <Routes>
